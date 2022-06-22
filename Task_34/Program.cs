@@ -46,17 +46,17 @@ int[] GenerateArray(int arrSize)
 //      количество положительных элементов
 int CalcEvenNumder(int[] array)
 {
-    int evenCnt = 0;
+    int evenConut = 0;
 
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i] % 2 == 0)
         {
-            evenCnt++;
+            evenConut++;
         }
     }
 
-    return evenCnt;
+    return evenConut;
 }
 
 // вывод массива на консоль
